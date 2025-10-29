@@ -1,10 +1,22 @@
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "@/assets/profile-photo.jpeg";
 
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 py-20">
       <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
+        <div className="flex justify-center mb-8">
+          <div className="relative">
+            <div className="absolute inset-0 bg-primary/20 rounded-full blur-2xl animate-pulse"></div>
+            <img 
+              src={profilePhoto} 
+              alt="Lahari Gunda - Computer Science Student"
+              className="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-primary/30 shadow-2xl glow-effect"
+            />
+          </div>
+        </div>
+        
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-bold">
             Hi, I'm <span className="gradient-text">Lahari Gunda</span>
