@@ -12,7 +12,7 @@ const Hero = () => {
             <img 
               src={profilePhoto} 
               alt="Lahari Gunda - Computer Science Student"
-              className="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-primary/30 shadow-2xl glow-effect"
+              className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary/30 shadow-2xl glow-effect"
             />
           </div>
         </div>
